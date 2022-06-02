@@ -1,0 +1,27 @@
+.blog__header {
+    text-align: center;
+    position: relative;
+    margin: 32px 0;
+}
+.blog__addNewButton {
+    position: fixed;
+    z-index: 500;
+    bottom: 32px;
+    right: 64px;
+    padding: 8px 16px 8px 32px;
+    background: rgb(27, 185, 206);
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-size: 18px;
+}
+.blog__addNewButton::before {
+    content: url("../../Assets/plus.svg");
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 8px;
+}
+.blog__addNewButton:hover {
+    background: rgb(9, 164, 184);
+    transition: 0.3s ease;
+}

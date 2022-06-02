@@ -1,0 +1,20 @@
+.button {
+    padding: 12px 20px;
+    background: rgb(27, 185, 206);
+    transition: 0.3s ease;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgb(38, 165, 182);
+}
+.button:hover {
+    background: rgb(9, 164, 184);
+    transition: 0.3s ease;
+}
+.button_red {
+    background: rgb(221, 28, 28);
+    border: 1px solid rgb(169, 9, 9);
+}
+.button_red:hover {
+    background: rgb(166, 13, 13);
+}

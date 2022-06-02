@@ -1,0 +1,21 @@
+.card {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.card__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+.card__content {
+    overflow: scroll;
+    padding: 8px;
+    flex: 1 1 auto;
+    border: 1px solid #000;
+    margin: 0 0 16px 0;
+    border-radius: 4px;
+    background: #fff;
+}
+

@@ -1,0 +1,32 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    height: 100%;
+}
+
+.post__backButton {
+    margin: 0 0 32px 0;
+}
+
+.post__header {
+    margin: 0 0 16px 0;
+}
+.post__title {
+    padding: 8px 16px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 0 0 16px 0;
+}
+.post__content {
+    flex: 1 1 auto;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 8px 16px;
+    resize: none;
+}
+.post-btnGroup {
+    margin: 32px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
